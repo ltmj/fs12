@@ -1,19 +1,23 @@
-Script started on 2022-11-07 17:41:07+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+Script started on 2022-11-07 17:58:53+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="116" LINES="30"]
 To run a command as administrator (user "root"), use "sudo <command>".
 See "man sudo_root" for details.
 
-[?2004h]0;lakeee@DESKTOP-0FJNF5E: ~/fs12/fs12[01;32mlakeee@DESKTOP-0FJNF5E[00m:[01;34m~/fs12/fs12[00m$ docker -[Krun -it ubuntu bash
-[?2004l[?2004h]0;root@f97acf24668b: /root@f97acf24668b:/# [K]0;root@f97acf24668b: /root@f97acf24668b:/# ls
-[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
-[?2004h]0;root@f97acf24668b: /root@f97acf24668b:/# mkdri  ir       cd user  r/src
-[?2004l[?2004h]0;root@f97acf24668b: /usr/srcroot@f97acf24668b:/usr/src# ls
-[?2004l[?2004h]0;root@f97acf24668b: /usr/srcroot@f97acf24668b:/usr/src# mkdir app
-[?2004l[?2004h]0;root@f97acf24668b: /usr/srcroot@f97acf24668b:/usr/src# ls
-[?2004l[0m[01;34mapp[0m
-[?2004h]0;root@f97acf24668b: /usr/srcroot@f97acf24668b:/usr/src# touch index.js
-[?2004l[?2004h]0;root@f97acf24668b: /usr/srcroot@f97acf24668b:/usr/src# exit
+[?2004h]0;lakeee@DESKTOP-0FJNF5E: ~/fs12/fs12/script-answers[01;32mlakeee@DESKTOP-0FJNF5E[00m:[01;34m~/fs12/fs12/script-answers[00m$ docker run -it ubuntu bash
+[?2004l[?2004h]0;root@177edb075c73: /root@177edb075c73:/# [K]0;root@177edb075c73: /root@177edb075c73:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;36mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@177edb075c73: /root@177edb075c73:/# mkdir     cd user  r( /src/app
+[?2004lbash: cd: usr/src/app: No such file or directory
+[?2004h]0;root@177edb075c73: /root@177edb075c73:/# ls  cd usr/src/app    
+[?2004l[?2004h]0;root@177edb075c73: /usr/srcroot@177edb075c73:/usr/src# ls
+[?2004l[?2004h]0;root@177edb075c73: /usr/srcroot@177edb075c73:/usr/src# mkdir src/   a  app
+[?2004l[?2004h]0;root@177edb075c73: /usr/srcroot@177edb075c73:/usr/src# cd app
+[?2004l[?2004h]0;root@177edb075c73: /usr/src/approot@177edb075c73:/usr/src/app# ls  touch index.js
+[?2004l[?2004h]0;root@177edb075c73: /usr/src/approot@177edb075c73:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@177edb075c73: /usr/src/approot@177edb075c73:/usr/src/app# eixt   xit
 [?2004lexit
-[?2004h]0;lakeee@DESKTOP-0FJNF5E: ~/fs12/fs12[01;32mlakeee@DESKTOP-0FJNF5E[00m:[01;34m~/fs12/fs12[00m$ ext[Kit
+[?2004h]0;lakeee@DESKTOP-0FJNF5E: ~/fs12/fs12/script-answers[01;32mlakeee@DESKTOP-0FJNF5E[00m:[01;34m~/fs12/fs12/script-answers[00m$ exit
 [?2004lexit
 
-Script done on 2022-11-07 17:42:58+02:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2022-11-07 18:00:00+02:00 [COMMAND_EXIT_CODE="0"]
