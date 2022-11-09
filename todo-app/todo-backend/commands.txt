@@ -1,0 +1,15 @@
+OPEN REDIS-CLI || docker exec -it *containerID* redis-cli
+
+
+open mongo container bash || docker exec -it todo-backend-mongo-1 bash
+	open mongo-cli || mongosh --host "localhost:27017" -u root -p example
+
+
+run these two to compose || docker-compose -f docker-compose.dev.yml down  <-- add --volumes if you want to reset mongo
+                         || docker-compose -f docker-compose.dev.yml up 
+
+
+run backend server outside container with mongo and redis 
+|| REDIS_URL=redis://0.0.0.0:6379 MONGO_URL=mongodb://the_username:the_password@localhost:3456/the_database npm run dev
+
+
