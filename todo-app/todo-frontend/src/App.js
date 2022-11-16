@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="App">
       <TodoView />
-      <h1>juuh elicks</h1>
     </div>
   );
 }
