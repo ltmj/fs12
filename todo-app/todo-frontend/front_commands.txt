@@ -3,3 +3,7 @@ Build container from image || docker build . -t todo-frontend
 Run container || docker run -p 80:80 todo-frontend
 
 start frontend outside a container || REACT_APP_BACKEND_URL=http://localhost:3000 npm start 
+
+docker run -p 3001:3000 -v "$(pwd):/usr/src/app/" todo-frontend-dev 
+
+docker build -f ./dev.Dockerfile -t todo-frontend-dev .
