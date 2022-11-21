@@ -12,7 +12,7 @@ router.get('/', async (_, res) => {
 /* GET statistics of added todos */
 router.get('/statistics', async(_, res) => {
   const value = await getAsync('added_todos');
-  console.log('check statistics')
+  console.log('checking statistics')
   res.send({ "added_todos":value })
 });
 
