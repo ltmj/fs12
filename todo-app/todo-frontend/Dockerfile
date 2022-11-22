@@ -2,7 +2,7 @@ FROM node:16 AS build-stage
 
 WORKDIR /usr/src/app
 
-COPY --chown=node:node . /usr/src/app
+COPY --chown=node:node . .
 
 RUN npm ci
 
