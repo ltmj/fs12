@@ -1,0 +1,18 @@
+services:
+   app:
+     image: kirjasto-frontend-production
+     build:
+      context: ./kirjasto_frontend/
+      dockerfile: ./Dockerfile
+     volumes:
+       - ./kirjasto_frontend/:/usr/src/app
+     ports:
+       - 3000:80
+     container_name: kirjasto-frontend-production
+   backend:
+     image: kirjasto-backend-production
+     volumes:
+        - ./kirjasto_backend/:/usr/src/app
+     ports:
+       - 4000:4000
+     container_name: kirjasto-backend-production
